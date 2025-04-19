@@ -1,9 +1,9 @@
-<li [ngClass]="{ editing: isEditing, completed: todo.completed }">
+<li [ngClass]="{ editing: isEditing, completed: todo.isCompleted}">
   <div class="view">
     <input
       type="checkbox"
       class="toggle"
-      [checked]="todo.completed"
+      [checked]="todo.isCompleted"
       (change)="toggleTodo()"
     />
     <label (dblclick)="setTodo()" for="todo-{{ todo.id }}">{{

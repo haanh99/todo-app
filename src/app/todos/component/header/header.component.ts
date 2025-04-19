@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { TodosService } from '../../sevices/todos.service';
+import { TodosService } from '../../services/todos.service';
 
 @Component({
   selector: 'app-header',

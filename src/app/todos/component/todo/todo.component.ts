@@ -1,7 +1,7 @@
 import { Component, ElementRef, EventEmitter, inject, Input, OnChanges, OnInit, Output, SimpleChanges, ViewChild, viewChild } from '@angular/core';
 import { TodoInterface } from '../../types/todo.interface';
 import { CommonModule, NgClass } from '@angular/common';
-import { TodosService } from '../../sevices/todos.service';
+import { TodosService } from '../../services/todos.service';
 
 @Component({
   selector: 'app-todo',
